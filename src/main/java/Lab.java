@@ -36,7 +36,12 @@ public class Lab {
         int sum = 0;
         int i = 0;
 
-//        code here
+        while(i<end) {
+            sum += i;
+            i++;
+            System.out.println("Sum is: " + sum);
+            System.out.println("i is: " + i);
+        }
 
         return sum;
     }
